@@ -6,21 +6,21 @@ import { OlympicDataServicesProvider } from "@hoc/olympic-data-service/OlympicDa
 import { OlympicDataInMemoryConnector } from "@services/olympic-data/olympic-data-in-memory.connector";
 import { OlympicDataService } from "@services/olympic-data/olympic-data.service";
 import { SmoothScrollLayout } from "@components/SmoothScroll";
-
+import { OlympicDataConnector } from "@services/olympic-data/olympic-data.interface";
 // import { OlympicDataHttpConnector } from "@services/olympic-data/olympic-data-http.connector";
-// const { VITE_OLYMPIC_DATA_API_TIMEOUT, VITE_OLYMPIC_DATA_API_URL } = import.meta
-//     .env;
 
-// API
-// const olympicDataConnector = new OlympicDataHttpConnector(
-//     VITE_OLYMPIC_DATA_API_URL,
-//     VITE_OLYMPIC_DATA_API_TIMEOUT
-// );
+// If we are in development mode, we will use the in-memory connector
+// if (import.meta.env.MODE === "production") {
+//      connector = new OlympicDataHttpConnector(
+//         import.meta.env.VITE_OLYMPIC_DATA_API_URL,
+//         import.meta.env.VITE_OLYMPIC_DATA_API_TIMEOUT
+//      );
+// } else {
+//      connector = new OlympicDataInMemoryConnector();
+// }
 
-console.log(import.meta.env.MODE);
-
-const olympicDataConnector = new OlympicDataInMemoryConnector();
-const olympicDataService = new OlympicDataService(olympicDataConnector);
+const connector: OlympicDataConnector = new OlympicDataInMemoryConnector();
+const olympicDataService = new OlympicDataService(connector);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>

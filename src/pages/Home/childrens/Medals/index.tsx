@@ -56,7 +56,7 @@ export const Medals: React.FC = () => {
 
     return (
         <div className="h-full w-full mb-[20px]">
-            <h1 className="bg-primary text-white font-paris font-bold text-[3em] text-center py-[20px]">
+            <h1 className="bg-primary text-white font-paris font-bold text-[3em] text-center py-[20px] translate-y-[-1px]">
                 MEDALS
             </h1>
             <div className="table w-full max-w-screen-sm mx-auto mt-[20px] px-[20px] font-satosh border-collapse font-satoshi max-sm:text-[3vw]">

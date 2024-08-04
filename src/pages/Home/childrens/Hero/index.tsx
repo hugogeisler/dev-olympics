@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
                     <img
                         src={montainImage}
                         alt="Montain"
-                        className="object-cover object-center h-full w-full opacity-20 grayscale"
+                        className="max-2xl:object-cover max-2xl:object-center object-scale-down h-full w-full opacity-20 grayscale"
                     />
                 </div>
             </div>
