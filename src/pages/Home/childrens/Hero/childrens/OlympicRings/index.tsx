@@ -65,7 +65,6 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
-                        className={`ring ${index === 0 ? "master" : ""}`}
                     />
                 )
             )}
@@ -83,7 +82,6 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
-                        className={`ring ${index === 0 ? "master" : ""}`}
                     />
                 )
             )}
@@ -101,7 +99,6 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
-                        className={`ring ${index === 0 ? "master" : ""}`}
                     />
                 )
             )}
@@ -121,7 +118,6 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             ),
                             index
                         )}
-                        className={`ring ${index === 0 ? "master" : ""}`}
                     />
                 )
             )}
@@ -141,7 +137,6 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             ),
                             index
                         )}
-                        className={`ring ${index === 0 ? "master" : ""}`}
                     />
                 )
             )}

@@ -1,14 +1,16 @@
 import { ContinentMedal } from "@models/ContinentMedlas";
 import { MedalsCount } from "./MedalCount";
-import { OlympicRings } from "./OlympicRings";
+import { OlympicRings } from "..";
 
 type OlympicResultProps = {
     ringRanks: Record<string, ContinentMedal>;
 };
 
 export const OlympicResult: React.FC<OlympicResultProps> = ({ ringRanks }) => {
+    if (!ringRanks || Object.keys(ringRanks).length !== 5) return;
+
     return (
-        <div className="flex flex-col gap-[50px] mx-auto md:max-w-screen-lg px-[20px]">
+        <div className="flex flex-col gap-[50px] max-sm:gap-[20px] mx-auto md:max-w-screen-lg w-full px-[20px]">
             <div className="w-full flex justify-around">
                 <MedalsCount
                     continent={ringRanks.EU}

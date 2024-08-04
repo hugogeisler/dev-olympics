@@ -17,11 +17,15 @@ export const MedalsCount: React.FC<{
     titleClassName?: string;
     medalsClassName?: string;
 }> = ({ continent, titleClassName = "", medalsClassName = "" }) => (
-    <div className="flex flex-col items-center justify-center w-[calc(100%/3)] font-chillax">
-        <span className={`text-[2em] ${titleClassName}`}>
+    <div className="flex flex-col items-center justify-center w-[calc(100%/3)] font-satoshi">
+        <span
+            className={`text-[2em] max-lg:text-[3vw] max-md:text-[4vw] ${titleClassName}`}
+        >
             {continent.continentName}: <b>{continent.total}</b>
         </span>
-        <div className={`flex gap-[30px] flex-row ${medalsClassName}`}>
+        <div
+            className={`flex gap-[20px] flex-row max-sm:flex-col max-sm:gap-[5px] ${medalsClassName}`}
+        >
             <MedalRepartition
                 medal={continent.gold}
                 className="bg-gold-indicator"
