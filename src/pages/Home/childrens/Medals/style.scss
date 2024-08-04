@@ -1,7 +1,9 @@
 .table-row {
-    &:not(.table-header):hover {
-        background-color: #7d84c2;
-        color: white;
+    @media screen and (min-width: 768px) {
+        &:not(.table-header):hover {
+            background-color: #7d84c2;
+            color: white;
+        }
     }
 
     .table-cell {
