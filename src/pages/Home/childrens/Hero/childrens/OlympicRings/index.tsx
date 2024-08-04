@@ -1,4 +1,6 @@
+import { useGSAP } from "@gsap/react";
 import { ContinentCode, ContinentMedal } from "@models/ContinentMedlas";
+import gsap from "gsap";
 
 type OlympicRingsProps = {
     ringRadius?: number;
@@ -51,6 +53,34 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
         return 5 - rank + 1;
     };
 
+    useGSAP(() => {
+        const ringTimeline = gsap.timeline({});
+
+        ["europe", "africa", "america", "asia", "oceania"].forEach(
+            (continent) => {
+                ringTimeline.fromTo(
+                    `.ring.${continent}-ring`,
+                    {
+                        scale: 0.9,
+                        opacity: 0,
+                        transformOrigin: "50% 50%",
+                    },
+                    {
+                        scale: 1,
+                        opacity: 1,
+                        duration: 1,
+                        ease: "power4.out",
+                        stagger: {
+                            each: 0.05,
+                            from: "end",
+                        },
+                    },
+                    0
+                );
+            }
+        );
+    });
+
     // Render the SVG
     return (
         <svg viewBox={getViewBox()} width="100%" height="100%">
@@ -65,6 +95,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
+                        className="ring europe-ring"
                     />
                 )
             )}
@@ -82,6 +113,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
+                        className="ring africa-ring"
                     />
                 )
             )}
@@ -99,6 +131,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             getCenteredRingPosition(0),
                             index
                         )}
+                        className="ring america-ring"
                     />
                 )
             )}
@@ -118,6 +151,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             ),
                             index
                         )}
+                        className="ring asia-ring"
                     />
                 )
             )}
@@ -137,6 +171,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                             ),
                             index
                         )}
+                        className="ring oceania-ring"
                     />
                 )
             )}
