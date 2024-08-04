@@ -9,8 +9,22 @@ export default {
             xl: "1280px",
             "2xl": "1536px",
         },
+        colors: {
+            "ring-blue": "#2563EB",
+            "ring-red": "#DC2626",
+            "ring-green": "#10B981",
+            "ring-yellow": "#F59E0B",
+            "ring-pink": "#EC4899",
+        },
         extend: {
-            fontFamily: {},
+            backgroundImage: {
+                "gold-indicator": "linear-gradient(to top, #fdf6d7, #fae868)",
+                "silver-indicator": "linear-gradient(to top, #f3f4f6, #d3d4d8)",
+                "bronze-indicator": "linear-gradient(to top, #f9d6ac, #f2b17b)",
+            },
+            fontFamily: {
+                chillax: ["Chillax", "sans-serif"],
+            },
         },
     },
 };

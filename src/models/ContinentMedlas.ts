@@ -1,5 +1,7 @@
+export type ContinentCode = "EU" | "AS" | "AM" | "OC" | "AF";
+
 export type ContinentMedal = {
-    continentCode: string;
+    continentCode: ContinentCode;
     continentName: string;
 
     gold: number;

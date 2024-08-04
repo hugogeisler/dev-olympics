@@ -56,8 +56,8 @@
         "Country_Number": 24
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Antigua and Barbuda",
         "Two_Letter_Country_Code": "AG",
         "Three_Letter_Country_Code": "ATG",
@@ -80,8 +80,8 @@
         "Country_Number": 31
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Argentina, Argentine Republic",
         "Two_Letter_Country_Code": "AR",
         "Three_Letter_Country_Code": "ARG",
@@ -104,8 +104,8 @@
         "Country_Number": 40
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Bahamas, Commonwealth of the",
         "Two_Letter_Country_Code": "BS",
         "Three_Letter_Country_Code": "BHS",
@@ -144,8 +144,8 @@
         "Country_Number": 51
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Barbados",
         "Two_Letter_Country_Code": "BB",
         "Three_Letter_Country_Code": "BRB",
@@ -160,8 +160,8 @@
         "Country_Number": 56
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Bermuda",
         "Two_Letter_Country_Code": "BM",
         "Three_Letter_Country_Code": "BMU",
@@ -176,8 +176,8 @@
         "Country_Number": 64
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Bolivia, Republic of",
         "Two_Letter_Country_Code": "BO",
         "Three_Letter_Country_Code": "BOL",
@@ -208,16 +208,16 @@
         "Country_Number": 74
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Brazil, Federative Republic of",
         "Two_Letter_Country_Code": "BR",
         "Three_Letter_Country_Code": "BRA",
         "Country_Number": 76
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Belize",
         "Two_Letter_Country_Code": "BZ",
         "Three_Letter_Country_Code": "BLZ",
@@ -240,8 +240,8 @@
         "Country_Number": 90
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "British Virgin Islands",
         "Two_Letter_Country_Code": "VG",
         "Three_Letter_Country_Code": "VGB",
@@ -304,8 +304,8 @@
         "Country_Number": 120
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Canada",
         "Two_Letter_Country_Code": "CA",
         "Three_Letter_Country_Code": "CAN",
@@ -320,8 +320,8 @@
         "Country_Number": 132
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Cayman Islands",
         "Two_Letter_Country_Code": "KY",
         "Three_Letter_Country_Code": "CYM",
@@ -352,8 +352,8 @@
         "Country_Number": 148
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Chile, Republic of",
         "Two_Letter_Country_Code": "CL",
         "Three_Letter_Country_Code": "CHL",
@@ -392,8 +392,8 @@
         "Country_Number": 166
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Colombia, Republic of",
         "Two_Letter_Country_Code": "CO",
         "Three_Letter_Country_Code": "COL",
@@ -440,8 +440,8 @@
         "Country_Number": 184
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Costa Rica, Republic of",
         "Two_Letter_Country_Code": "CR",
         "Three_Letter_Country_Code": "CRI",
@@ -456,8 +456,8 @@
         "Country_Number": 191
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Cuba, Republic of",
         "Two_Letter_Country_Code": "CU",
         "Three_Letter_Country_Code": "CUB",
@@ -504,32 +504,32 @@
         "Country_Number": 208
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Dominica, Commonwealth of",
         "Two_Letter_Country_Code": "DM",
         "Three_Letter_Country_Code": "DMA",
         "Country_Number": 212
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Dominican Republic",
         "Two_Letter_Country_Code": "DO",
         "Three_Letter_Country_Code": "DOM",
         "Country_Number": 214
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Ecuador, Republic of",
         "Two_Letter_Country_Code": "EC",
         "Three_Letter_Country_Code": "ECU",
         "Country_Number": 218
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "El Salvador, Republic of",
         "Two_Letter_Country_Code": "SV",
         "Three_Letter_Country_Code": "SLV",
@@ -576,8 +576,8 @@
         "Country_Number": 234
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Falkland Islands (Malvinas)",
         "Two_Letter_Country_Code": "FK",
         "Three_Letter_Country_Code": "FLK",
@@ -624,8 +624,8 @@
         "Country_Number": 250
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "French Guiana",
         "Two_Letter_Country_Code": "GF",
         "Three_Letter_Country_Code": "GUF",
@@ -736,24 +736,24 @@
         "Country_Number": 300
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Greenland",
         "Two_Letter_Country_Code": "GL",
         "Three_Letter_Country_Code": "GRL",
         "Country_Number": 304
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Grenada",
         "Two_Letter_Country_Code": "GD",
         "Three_Letter_Country_Code": "GRD",
         "Country_Number": 308
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Guadeloupe",
         "Two_Letter_Country_Code": "GP",
         "Three_Letter_Country_Code": "GLP",
@@ -768,8 +768,8 @@
         "Country_Number": 316
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Guatemala, Republic of",
         "Two_Letter_Country_Code": "GT",
         "Three_Letter_Country_Code": "GTM",
@@ -784,16 +784,16 @@
         "Country_Number": 324
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Guyana, Co-operative Republic of",
         "Two_Letter_Country_Code": "GY",
         "Three_Letter_Country_Code": "GUY",
         "Country_Number": 328
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Haiti, Republic of",
         "Two_Letter_Country_Code": "HT",
         "Three_Letter_Country_Code": "HTI",
@@ -816,8 +816,8 @@
         "Country_Number": 336
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Honduras, Republic of",
         "Two_Letter_Country_Code": "HN",
         "Three_Letter_Country_Code": "HND",
@@ -912,8 +912,8 @@
         "Country_Number": 384
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Jamaica",
         "Two_Letter_Country_Code": "JM",
         "Three_Letter_Country_Code": "JAM",
@@ -1120,8 +1120,8 @@
         "Country_Number": 470
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Martinique",
         "Two_Letter_Country_Code": "MQ",
         "Three_Letter_Country_Code": "MTQ",
@@ -1144,8 +1144,8 @@
         "Country_Number": 480
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Mexico, United Mexican States",
         "Two_Letter_Country_Code": "MX",
         "Three_Letter_Country_Code": "MEX",
@@ -1184,8 +1184,8 @@
         "Country_Number": 499
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Montserrat",
         "Two_Letter_Country_Code": "MS",
         "Three_Letter_Country_Code": "MSR",
@@ -1248,40 +1248,40 @@
         "Country_Number": 528
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Netherlands Antilles",
         "Two_Letter_Country_Code": "AN",
         "Three_Letter_Country_Code": "ANT",
         "Country_Number": 530
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Curaçao",
         "Two_Letter_Country_Code": "CW",
         "Three_Letter_Country_Code": "CUW",
         "Country_Number": 531
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Aruba",
         "Two_Letter_Country_Code": "AW",
         "Three_Letter_Country_Code": "ABW",
         "Country_Number": 533
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Sint Maarten (Netherlands)",
         "Two_Letter_Country_Code": "SX",
         "Three_Letter_Country_Code": "SXM",
         "Country_Number": 534
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Bonaire, Sint Eustatius and Saba",
         "Two_Letter_Country_Code": "BQ",
         "Three_Letter_Country_Code": "BES",
@@ -1312,8 +1312,8 @@
         "Country_Number": 554
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Nicaragua, Republic of",
         "Two_Letter_Country_Code": "NI",
         "Three_Letter_Country_Code": "NIC",
@@ -1376,8 +1376,8 @@
         "Country_Number": 581
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "United States Minor Outlying Islands",
         "Two_Letter_Country_Code": "UM",
         "Three_Letter_Country_Code": "UMI",
@@ -1416,8 +1416,8 @@
         "Country_Number": 586
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Panama, Republic of",
         "Two_Letter_Country_Code": "PA",
         "Three_Letter_Country_Code": "PAN",
@@ -1432,16 +1432,16 @@
         "Country_Number": 598
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Paraguay, Republic of",
         "Two_Letter_Country_Code": "PY",
         "Three_Letter_Country_Code": "PRY",
         "Country_Number": 600
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Peru, Republic of",
         "Two_Letter_Country_Code": "PE",
         "Three_Letter_Country_Code": "PER",
@@ -1496,8 +1496,8 @@
         "Country_Number": 626
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Puerto Rico, Commonwealth of",
         "Two_Letter_Country_Code": "PR",
         "Three_Letter_Country_Code": "PRI",
@@ -1552,8 +1552,8 @@
         "Country_Number": 646
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Barthelemy",
         "Two_Letter_Country_Code": "BL",
         "Three_Letter_Country_Code": "BLM",
@@ -1568,48 +1568,48 @@
         "Country_Number": 654
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Kitts and Nevis, Federation of",
         "Two_Letter_Country_Code": "KN",
         "Three_Letter_Country_Code": "KNA",
         "Country_Number": 659
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Anguilla",
         "Two_Letter_Country_Code": "AI",
         "Three_Letter_Country_Code": "AIA",
         "Country_Number": 660
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Lucia",
         "Two_Letter_Country_Code": "LC",
         "Three_Letter_Country_Code": "LCA",
         "Country_Number": 662
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Martin",
         "Two_Letter_Country_Code": "MF",
         "Three_Letter_Country_Code": "MAF",
         "Country_Number": 663
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Pierre and Miquelon",
         "Two_Letter_Country_Code": "PM",
         "Three_Letter_Country_Code": "SPM",
         "Country_Number": 666
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Saint Vincent and the Grenadines",
         "Two_Letter_Country_Code": "VC",
         "Three_Letter_Country_Code": "VCT",
@@ -1760,8 +1760,8 @@
         "Country_Number": 736
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Suriname, Republic of",
         "Two_Letter_Country_Code": "SR",
         "Three_Letter_Country_Code": "SUR",
@@ -1848,8 +1848,8 @@
         "Country_Number": 776
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Trinidad and Tobago, Republic of",
         "Two_Letter_Country_Code": "TT",
         "Three_Letter_Country_Code": "TTO",
@@ -1896,8 +1896,8 @@
         "Country_Number": 795
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Turks and Caicos Islands",
         "Two_Letter_Country_Code": "TC",
         "Three_Letter_Country_Code": "TCA",
@@ -1984,16 +1984,16 @@
         "Country_Number": 834
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "United States of America",
         "Two_Letter_Country_Code": "US",
         "Three_Letter_Country_Code": "USA",
         "Country_Number": 840
     },
     {
-        "Continent_Name": "North America",
-        "Continent_Code": "NA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "United States Virgin Islands",
         "Two_Letter_Country_Code": "VI",
         "Three_Letter_Country_Code": "VIR",
@@ -2008,8 +2008,8 @@
         "Country_Number": 854
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Uruguay, Eastern Republic of",
         "Two_Letter_Country_Code": "UY",
         "Three_Letter_Country_Code": "URY",
@@ -2024,8 +2024,8 @@
         "Country_Number": 860
     },
     {
-        "Continent_Name": "South America",
-        "Continent_Code": "SA",
+        "Continent_Name": "America",
+        "Continent_Code": "AM",
         "Country_Name": "Venezuela, Bolivarian Republic of",
         "Two_Letter_Country_Code": "VE",
         "Three_Letter_Country_Code": "VEN",
@@ -2093,6 +2093,14 @@
         "Country_Name": "Spratly Islands",
         "Two_Letter_Country_Code": "XS",
         "Three_Letter_Country_Code": "",
+        "Country_Number": ""
+    },
+    {
+        "Continent_Name": "Europe",
+        "Continent_Code": "EU",
+        "Country_Name": "Kosovo",
+        "Two_Letter_Country_Code": "XK",
+        "Three_Letter_Country_Code": "XKX",
         "Country_Number": ""
     }
 ]

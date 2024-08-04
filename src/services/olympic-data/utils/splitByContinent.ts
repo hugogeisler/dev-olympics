@@ -1,4 +1,4 @@
-import { ContinentMedal } from "@models/ContinentMedlas";
+import { ContinentCode, ContinentMedal } from "@models/ContinentMedlas";
 import { CountryMedal } from "@models/CountryMedal";
 import countryContinentAttribution from "../mocks/country-continent-attribution.json";
 
@@ -18,6 +18,7 @@ const fixedMapCountryCode: Record<string, string> = {
     TPE: "TWN",
     GRN: "GRD",
     POR: "PRT",
+    KOS: "XKX",
 };
 
 export const splitByContinent = (medals: CountryMedal[]): ContinentMedal[] => {
@@ -45,7 +46,8 @@ export const splitByContinent = (medals: CountryMedal[]): ContinentMedal[] => {
 
             if (!currentContinent) {
                 acc.push({
-                    continentCode: continentAttribution.Continent_Code,
+                    continentCode:
+                        continentAttribution.Continent_Code as ContinentCode,
                     continentName: continentAttribution.Continent_Name,
 
                     gold: medal.gold,
