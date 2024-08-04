@@ -17,6 +17,8 @@ import { SmoothScrollLayout } from "@components/SmoothScroll";
 //     VITE_OLYMPIC_DATA_API_TIMEOUT
 // );
 
+console.log(import.meta.env.MODE);
+
 const olympicDataConnector = new OlympicDataInMemoryConnector();
 const olympicDataService = new OlympicDataService(olympicDataConnector);
 
