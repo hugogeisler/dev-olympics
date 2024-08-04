@@ -29,6 +29,7 @@ export default defineConfig(({ mode }) => {
                 "@services": path.resolve(__dirname, "src/services"),
                 "@models": path.resolve(__dirname, "src/models"),
                 "@hoc": path.resolve(__dirname, "src/hoc"),
+                "@utils": path.resolve(__dirname, "src/utils"),
             },
         },
     };

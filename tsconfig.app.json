@@ -33,7 +33,8 @@
             "@hooks/*": ["hooks/*"],
             "@services/*": ["services/*"],
             "@models/*": ["models/*"],
-            "@hoc/*": ["hoc/*"]
+            "@hoc/*": ["hoc/*"],
+            "@utils/*": ["utils/*"]
         }
     },
     "include": ["src"]

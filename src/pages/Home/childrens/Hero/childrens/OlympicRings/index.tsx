@@ -68,7 +68,7 @@ export const OlympicRings: React.FC<OlympicRingsProps> = ({
                     {
                         scale: 1,
                         opacity: 1,
-                        duration: 1,
+                        duration: 2,
                         ease: "power4.out",
                         stagger: {
                             each: 0.05,

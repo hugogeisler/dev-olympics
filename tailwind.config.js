@@ -19,6 +19,7 @@ export default {
         extend: {
             backgroundColor: {
                 white: "#ffffff",
+                grey: "#f9fafb",
             },
             backgroundImage: {
                 "gold-indicator": "linear-gradient(to top, #fdf6d7, #fae868)",
@@ -29,6 +30,10 @@ export default {
             },
             fontFamily: {
                 satoshi: ["Satoshi", "sans-serif"],
+                paris: ['"Paris 2024"', "sans-serif"],
+            },
+            textColor: {
+                white: "#ffffff",
             },
         },
     },

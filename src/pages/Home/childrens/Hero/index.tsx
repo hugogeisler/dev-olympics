@@ -30,16 +30,16 @@ export const Hero: React.FC = () => {
 
     return (
         <div
-            className="h-[100svh] w-full bg-primary relative overflow-hidden"
+            className="h-screen w-full bg-primary relative overflow-hidden"
             id="hero-section"
         >
-            <div className="wrapper w-full h-full bg-white flex justify-center items-center flex-col gap-[100px] px-[10px]">
-                <h1 className="font-satoshi font-medium text-[2em] text-center">
+            <div className="wrapper w-full h-full bg-white flex justify-around items-center flex-col px-[20px]">
+                <h1 className="font-satoshi font-medium text-[2em] max-sm:text-[6vw] text-center">
                     Olympic medals per continent* in Paris 2024
                 </h1>
                 <OlympicResult ringRanks={ringRanks} />
                 <div className="flex flex-col gap-[20px] items-center">
-                    <p className="font-satoshi font-light text-[0.8em] text-center">
+                    <p className="font-satoshi font-light text-[0.8em] max-sm:text-[3vw] text-center">
                         * The composition of nations by continent and their
                         subregions is bases on UN's "macro geographical
                         (continental) regions". which can be found in :{" "}
@@ -50,14 +50,14 @@ export const Hero: React.FC = () => {
                             https://unstats.un.org/unsd/methodology/m49/
                         </a>
                     </p>
-                    <p className="font-satoshi font-light text-center">
+                    <p className="font-satoshi font-light text-center max-sm:text-[4vw]">
                         Source :{" "}
                         <a href="https://www.olympics.com/" target="_blank">
                             https://www.olympics.com/
                         </a>
                     </p>
                 </div>
-                <div className="absolute bottom-0 left-[50%] translate-x-[-50%] w-full h-[200px]">
+                <div className="absolute bottom-0 left-[50%] translate-x-[-50%] w-full h-[200px] max-sm:h-[100px]">
                     <img
                         src={montainImage}
                         alt="Montain"

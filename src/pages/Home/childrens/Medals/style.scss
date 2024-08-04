@@ -1,0 +1,10 @@
+.table-row {
+    &:not(.table-header):hover {
+        background-color: #7d84c2;
+        color: white;
+    }
+
+    .table-cell {
+        padding: 15px 10px;
+    }
+}
