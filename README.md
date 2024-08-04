@@ -11,7 +11,7 @@ Merci d'avoir jeté un coup d'œil à ce projet ! Ce widget est un outil de visu
 
 ## Inspiration
 
-![Insiration](https://github.com/hugogeisler/dev-olympics/.idea/inspiration.png)
+![Inspiration](https://github.com/hugogeisler/dev-olympics/blob/main/.idea/inspiration.png?raw=true)
 
 ## Fonctionnalités
 
