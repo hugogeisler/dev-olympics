@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Widget Olympique - Paris 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Merci d'avoir jeté un coup d'œil à ce projet ! Ce widget est un outil de visualisation de données sur les Jeux Olympiques, créé dans le cadre d'une compétition de design pour représenter la France.
 
-Currently, two official plugins are available:
+## Technologies Utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **ViteJS** : Outil de développement rapide pour les applications web modernes.
+-   **Typescript** : Superset de JavaScript qui ajoute des types statiques.
+-   **TailwindCSS** : Framework CSS utilitaire pour un design rapide et réactif.
+-   **GSAP (GreenSock Animation Platform)** : Bibliothèque pour des animations fluides et performantes.
 
-## Expanding the ESLint configuration
+## Inspiration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Insiration](https://github.com/hugogeisler/dev-olympics/.idea/inspiration.png)
 
-- Configure the top-level `parserOptions` property like this:
+## Fonctionnalités
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+-   **Animations Interactives** : Utilisation de GSAP pour animer les cercles et les éléments de la page.
+-   **Design Réactif** : Interface utilisateur responsive grâce à TailwindCSS.
+-   **Mises à Jour Dynamiques** : Possibilité de se connecter à une API publique pour récupérer les données des médailles par continent (non implémenté mais suggéré pour une future extension).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Démo en Ligne
+
+Le projet est déployé sur Vercel et accessible à l'adresse suivante : [dev-olympics-paris-2024.vercel.app](https://dev-olympics-paris-2024.vercel.app)
+
+## Instructions d'Installation et d'Exécution
+
+1. **Clonez le dépôt** :
+
+    ```bash
+    git clone https://github.com/votre-nom-d-utilisateur/nom-du-projet.git
+    cd nom-du-projet
+    ```
+
+2. **Installez les dépendances** :
+
+    ```bash
+    yarn  install
+    ```
+
+3. **Lancez le serveur de développement** :
+
+    ```bash
+    yarn run dev
+    ```
+
+4. **Accédez à l'application** :
+
+    Ouvrez votre navigateur et allez à http://localhost:3000.
+
+# Remerciements
+
+Merci à **Benjamin Code** pour l'organisation de cette compétition et à tous ceux qui ont participé et contribué à ce projet.
