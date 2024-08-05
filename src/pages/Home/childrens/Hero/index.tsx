@@ -1,4 +1,4 @@
-import { OlympicResult } from "@pages/Home/childrens/Hero/childrens/OlympicRings/childrens/OlympicResult";
+import { OlympicResults } from "./childrens/OlympicResults";
 import { useGetMedalsByContinent } from "@hooks/olympic-data-service/useGetMedalsByContinent";
 import { ContinentCode, ContinentMedal } from "@models/ContinentMedlas";
 import { useGSAP } from "@gsap/react";
@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
                 <h1 className="font-satoshi font-medium text-[2em] max-sm:text-[6vw] text-center">
                     Olympic medals per continent* in Paris 2024
                 </h1>
-                <OlympicResult ringRanks={ringRanks} />
+                <OlympicResults ringRanks={ringRanks} />
                 <div className="flex flex-col gap-[20px] items-center">
                     <p className="font-satoshi font-light text-[0.8em] max-sm:text-[3vw] text-center">
                         * The composition of nations by continent and their

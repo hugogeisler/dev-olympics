@@ -1,12 +1,12 @@
 import { ContinentMedal } from "@models/ContinentMedlas";
-import { MedalsCount } from "./MedalCount";
-import { OlympicRings } from "..";
+import { MedalsCount } from "./childrens/MedalCount";
+import { OlympicRings } from "./childrens/OlympicRings";
 
 type OlympicResultProps = {
     ringRanks: Record<string, ContinentMedal>;
 };
 
-export const OlympicResult: React.FC<OlympicResultProps> = ({ ringRanks }) => {
+export const OlympicResults: React.FC<OlympicResultProps> = ({ ringRanks }) => {
     if (!ringRanks || Object.keys(ringRanks).length !== 5) return;
 
     return (
